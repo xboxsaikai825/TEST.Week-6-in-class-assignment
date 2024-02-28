@@ -44,5 +44,6 @@ using namespace std;
 int main() {
     
     cout << "bruh";
+    cout << "lol";
     return 0;
 }
