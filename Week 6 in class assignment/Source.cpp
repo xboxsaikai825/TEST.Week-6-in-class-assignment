@@ -42,22 +42,7 @@ const int MAX_SIZE = 100000;
 using namespace std;
 
 int main() {
-    int values[MAX_SIZE];
-    int size = 0;
-
-    cout << "Demo with " << size << " elements:" << endl;
-    cout << "Enter array size: ";
-    cin >> size;
-
-    int before = time(0);
-    srand(before);
-    for (int i = 1; i <= ITERATIONS; i++) {
-        random_fill(values, size);
-        bubbleSort(values, size);
-    }
-    int after = time(0);
-    cout << "Elapsed time with bubble sort: "
-        << (after - before) * 1.0 / ITERATIONS << " seconds" << endl;
-
+    
+    cout << "bruh";
     return 0;
 }
